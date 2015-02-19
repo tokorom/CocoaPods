@@ -2,7 +2,7 @@
 *.swp
 *.swo
 *.rbo
-*.gem
+# *.gem
 .DS_Store
 .rbenv-version
 .rbx/

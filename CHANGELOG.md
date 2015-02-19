@@ -27,6 +27,11 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
   `/tmp`.  
   [Samuel Giddins](https://github.com/segiddins)
 
+* Reject installation if a static library is used as a transitive dependency
+  while integrating Pods as frameworks.  
+  [Samuel Giddins](https://github.com/segiddins)
+  [#2926](https://github.com/CocoaPods/CocoaPods/issues/2926)
+
 ##### Bug Fixes
 
 * Added support for .tpp C++ header files in specs (previously were getting
